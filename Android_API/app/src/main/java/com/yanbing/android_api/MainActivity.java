@@ -16,10 +16,7 @@ public class MainActivity extends AppCompatActivity {
         int num =Arithmetic.rank(6,a);
         Log.d("yanbing","num =" +num);
         Log.d("yanbing","string =" +Arithmetic.IntToBinaryString_1(a.length));
-        System.out.println("yanbing start");
-        System.out.println('b');
-        System.out.println('b'+'c');
-        System.out.println((char)('a'+4));
-        System.out.println("yanbing end");
+        Log.d("yanbing","堆内存大小 =" +Arithmetic.MaxMermory());
+
     }
 }

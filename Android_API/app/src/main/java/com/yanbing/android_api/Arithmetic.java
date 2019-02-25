@@ -44,4 +44,9 @@ public class Arithmetic {
         return s;
     }
 
+    //获取Heap(堆)内存大小,单位M
+    public static  long MaxMermory(){
+        return Runtime.getRuntime().maxMemory()/1024/1024;
+    }
+
 }
