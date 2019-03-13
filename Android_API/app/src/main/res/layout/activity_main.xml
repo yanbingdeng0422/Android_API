@@ -15,4 +15,12 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!--<com.yanbing.android_api.ContactsPreferenceCategory-->
+        <!--preference:title="关于">-->
+        <!--<Preference-->
+            <!--android:key="help"-->
+            <!--android:title="帮助" >-->
+        <!--</Preference>-->
+    <!--</com.yanbing.android_api.ContactsPreferenceCategory>-->
+
 </android.support.constraint.ConstraintLayout>

@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.yanbing.android_api.until.Bag;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -18,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d("yanbing","string =" +Arithmetic.IntToBinaryString_1(a.length));
         Log.d("yanbing","堆内存大小 =" +Arithmetic.MaxMermory());
 
+        Bag.Bag_main(null);
     }
 }

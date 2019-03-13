@@ -1,5 +1,7 @@
 package com.yanbing.android_api;
 
+import java.util.Random;
+
 /**
  * Created by dengyanbing on 2019/2/20.
  */
@@ -47,6 +49,12 @@ public class Arithmetic {
     //获取Heap(堆)内存大小,单位M
     public static  long MaxMermory(){
         return Runtime.getRuntime().maxMemory()/1024/1024;
+    }
+
+    //生成随机数 double型
+    public static double Random(){
+        Random random = new Random();
+        return random.nextDouble();
     }
 
 }
